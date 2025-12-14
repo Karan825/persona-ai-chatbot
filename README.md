@@ -1,5 +1,6 @@
 # Persona-Based AI Chatbot
 ![Persona-based AI Chatbot Demo](Project002-ezgif.com-crop.gif)
+
 A persona-driven AI chatbot built using FastAPI, LangChain, and Groq LLMs.
 
 ## Features
