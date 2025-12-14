@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persona AI Platform</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>Personas</h2>
+
+        <div class="persona-card active" data-persona="beep42">
+            <h3>BEEP-42</h3>
+            <p>Robotic Assistant</p>
+        </div>
+
+        <div class="persona-card" data-persona="executive_ai">
+            <h3>Executive AI</h3>
+            <p>Business Advisor</p>
+        </div>
+
+        <div class="persona-card" data-persona="socrates">
+            <h3>Socrates</h3>
+            <p>Socratic Tutor</p>
+        </div>
+    </aside>
+
+    <!-- Chat Area -->
+    <main class="chat-area">
+        <header class="chat-header">
+            <h1 id="botName">BEEP-42</h1>
+            <span id="botRole">Robotic Assistant</span>
+        </header>
+
+        <section class="chat-window" id="chatWindow"></section>
+
+        <footer class="input-area">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Type your message..."
+                autocomplete="off"
+            />
+            <button onclick="sendMessage()">Send</button>
+        </footer>
+    </main>
+
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
