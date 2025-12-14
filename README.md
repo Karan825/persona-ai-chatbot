@@ -1,6 +1,6 @@
 # Persona-Based AI Chatbot
-
-A production-style, persona-driven AI chatbot built using FastAPI, LangChain, and Groq LLMs.
+![Persona-based AI Chatbot Demo](Project002-ezgif.com-crop.gif)
+A persona-driven AI chatbot built using FastAPI, LangChain, and Groq LLMs.
 
 ## Features
 - Multiple personas (Robotic, Executive, Socratic)
